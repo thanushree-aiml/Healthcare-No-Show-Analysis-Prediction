@@ -1,0 +1,33 @@
+{
+  "auc_roc": 0.7066,
+  "f1_score": 0.4251,
+  "precision": 0.291,
+  "recall": 0.7885,
+  "accuracy": 0.5693,
+  "best_params": {
+    "colsample_bytree": 0.7257423924305306,
+    "learning_rate": 0.11171413823294056,
+    "max_depth": 8,
+    "n_estimators": 330,
+    "subsample": 0.7641531692142519
+  },
+  "feature_cols": [
+    "Gender",
+    "Age",
+    "Scholarship",
+    "Hypertension",
+    "Diabetes",
+    "Alcoholism",
+    "Handicap",
+    "SMS_received",
+    "lead_time",
+    "prior_noshows",
+    "day_of_week",
+    "appointment_month",
+    "has_chronic",
+    "neighbourhood_risk"
+  ],
+  "train_size": 88420,
+  "test_size": 22106,
+  "noshow_rate": 0.2019
+}
